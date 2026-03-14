@@ -1,0 +1,29 @@
+<tr>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #6c2e05; line-height: 18px; vertical-align: top; padding:10px 0;" class="article">
+        Kol (Q90) <br> Duba (L-222) (Q90) » Tek Pabuç
+    </td>
+    <td><img src="https://flexsafe.com.tr/dimg/urun/2456527296_esnek_bariyer_x2s.jpg" width="50" height="40" alt="logo" border="0" /></td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e; line-height: 18px; vertical-align: top; padding:10px 0;" align="center">101</td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #1e2b33; line-height: 18px; vertical-align: top; padding:10px 0;" align="right">8557.45</td>
+  </tr><tr>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #6c2e05; line-height: 18px; vertical-align: top; padding:10px 0;" class="article">
+        Kol (Q90) <br> Duba (L-1) (Q90) » Tek Pabuç
+    </td>
+    <td><img src="https://flexsafe.com.tr/dimg/urun/2986730632_esnek_bariyer_esnek-bariyer-1.jpg" width="50" height="40" alt="logo" border="0" /></td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e; line-height: 18px; vertical-align: top; padding:10px 0;" align="center">2201</td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #1e2b33; line-height: 18px; vertical-align: top; padding:10px 0;" align="right">131102.45</td>
+  </tr><tr>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #6c2e05; line-height: 18px; vertical-align: top; padding:10px 0;" class="article">
+        Kol (Q90) <br> Duba (L-2) (Q90) » Tek Pabuç
+    </td>
+    <td><img src="https://flexsafe.com.tr/dimg/urun/2815220125_esnek_bariyer_e1.jpg" width="50" height="40" alt="logo" border="0" /></td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e; line-height: 18px; vertical-align: top; padding:10px 0;" align="center">101</td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #1e2b33; line-height: 18px; vertical-align: top; padding:10px 0;" align="right">6027.45</td>
+  </tr><tr>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #6c2e05; line-height: 18px; vertical-align: top; padding:10px 0;" class="article">
+        Kol (Q90) <br> Duba (L-2) (Q90) » Tek Pabuç
+    </td>
+    <td><img src="https://flexsafe.com.tr/dimg/urun/2815220125_esnek_bariyer_e1.jpg" width="50" height="40" alt="logo" border="0" /></td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #646a6e; line-height: 18px; vertical-align: top; padding:10px 0;" align="center">101</td>
+    <td style="font-size: 12px; font-family: 'Open Sans', sans-serif; color: #1e2b33; line-height: 18px; vertical-align: top; padding:10px 0;" align="right">6027.45</td>
+  </tr>

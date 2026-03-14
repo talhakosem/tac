@@ -1,0 +1,29 @@
+RewriteEngine on
+
+#aşağıdaki iki satır kod https yönlendirme kodu
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+#Seo url oluşturma
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+#404 hata sayfası yönlendirme kodu
+
+ErrorDocument 404 https://re-flexible.com/404
+
+
+RewriteRule ^category-([0-9a-zA-Z-_]+)  category.php?sef=$1 [L,QSA]
+RewriteRule ^bariyer-([0-9a-zA-Z-_]+)-([0-9]+)$  urun-detay.php?sef=$1&urun_id=$2 [L,QSA]
+
+
+RewriteRule ^arama  arama.php [L,QSA]
+
+RewriteRule ^blog-([0-9a-zA-Z-_]+)  blog-detail.php?sef=$1 [L,QSA]
+
+
+
+RewriteRule ^sitemap.xml$ sitemap.php [NC,L]
+
