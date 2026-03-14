@@ -194,8 +194,8 @@ require 'Frameworks/PHPMailer/src/SMTP.php';
 
 
 $SiteEmailHostAdresi = "webmail.tacbariyer.com";
-$SiteEmailAdresi = "gonder@tacbariyer.com";
-$SiteEmailSifresi = "GKeL^-)1Myez";
+$SiteEmailAdresi = "noreply@tacbariyer.com";
+$SiteEmailSifresi = "o]GMB*1n~],R";
 $gonder = "bilgi@tacbariyer.com";
 
 
@@ -269,6 +269,7 @@ $MailIcerigiHazirla = "İsim Soyisim : " . $name .
     header("Location:$link?durum=gonderildi");
     exit();
   }catch(Exception $e){
+    error_log("Tac Bariyer ileti-gonder.php PHPMailer hatası: " . $e->getMessage());
     header("Location:$link?durum=gonderilemedi");
     exit();
   }

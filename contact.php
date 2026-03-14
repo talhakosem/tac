@@ -43,6 +43,23 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
       </div>
       <!-- Hero-->
       <section class="container mb-5 pb-2 pb-md-4 pb-lg-5">
+        <?php if (isset($_GET['durum'])): ?>
+        <div class="row">
+          <div class="col-12">
+            <?php if ($_GET['durum'] === 'gonderildi'): ?>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+              <strong>Mesajınız iletildi.</strong> En kısa sürede size dönüş yapacağız.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Kapat"></button>
+            </div>
+            <?php elseif ($_GET['durum'] === 'gonderilemedi'): ?>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <strong>Mesaj gönderilemedi.</strong> Lütfen daha sonra tekrar deneyin veya doğrudan <?php echo $ayarcek['ayar_mail']; ?> adresinden yazın.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Kapat"></button>
+            </div>
+            <?php endif; ?>
+          </div>
+        </div>
+        <?php endif; ?>
         <div class="row align-items-md-start align-items-center gy-4">
           <div class="col-lg-5 col-md-6">
             <div class="mx-md-0 mx-auto mb-md-5 mb-4 pb-md-4 text-md-start text-center" style="max-width: 416px;">

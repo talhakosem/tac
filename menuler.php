@@ -119,7 +119,7 @@ header('Content-Type: text/html; charset=UTF-8');
  
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
  <?php 
-  if ($_GET['durum']=="no") {?>
+  if (isset($_GET['durum']) && $_GET['durum']=="no") {?>
     <script>
       Swal.fire(
         'Hata',
@@ -127,15 +127,23 @@ header('Content-Type: text/html; charset=UTF-8');
         'error'
         )
       </script>
-    <?php } elseif ($_GET['durum']=="gonderildi") {?>
+    <?php } elseif (isset($_GET['durum']) && $_GET['durum']=="gonderildi") {?>
       <script>
         Swal.fire(
-          'Başarı',
-          'Talebiniz Tarafımıza Gönderilmiştir',
+          'Gönderildi',
+          'Talebiniz tarafımıza iletildi. En kısa sürede size dönüş yapacağız.',
           'success'
-          )
-        </script>
-      <?php } elseif ($_GET['durum']=="bot") {?>
+        )
+      </script>
+      <?php } elseif (isset($_GET['durum']) && $_GET['durum']=="gonderilemedi") {?>
+      <script>
+        Swal.fire(
+          'Gönderilemedi',
+          'Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin veya iletişim sayfasından bize ulaşın.',
+          'error'
+        )
+      </script>
+      <?php } elseif (isset($_GET['durum']) && $_GET['durum']=="bot") {?>
         <script>
           Swal.fire(
             'Bot tespit edildi',
