@@ -53,25 +53,27 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
           <div class="col-md-6 offset-lg-1">
             <div class="card border-0 bg-secondary p-sm-3 p-2">
               <div class="card-body m-1">
-                <form class="needs-validation" novalidate>
+                <form class="needs-validation" novalidate action="ileti-gonder.php" method="POST">
+                  <input type="hidden" name="geldigiyer" value="iletisim">
+                  <input type="hidden" name="link" value="contact">
                   <div class="mb-4">
                     <label class="form-label" for="c-name">Tam İsim</label>
-                    <input class="form-control form-control-lg" id="c-name" type="text" required>
+                    <input class="form-control form-control-lg" id="c-name" name="name" type="text" required>
                   </div>
                   <div class="mb-4">
-                    <label class="form-label" for="c-email">Şirket İsmi</label>
-                    <input class="form-control form-control-lg" id="c-email" type="text" required>
+                    <label class="form-label" for="c-company">Şirket İsmi</label>
+                    <input class="form-control form-control-lg" id="c-company" name="company" type="text" required>
                   </div>
                   <div class="mb-4">
                     <label class="form-label" for="c-email">Email</label>
-                    <input class="form-control form-control-lg" id="c-email" type="email" required>
+                    <input class="form-control form-control-lg" id="c-email" name="email" type="email" required>
                   </div>
                   <div class="mb-4">
                     <label class="form-label" for="c-message">Mesajınız</label>
-                    <textarea class="form-control form-control-lg" id="c-message" rows="4" placeholder="Leave your message" required></textarea>
+                    <textarea class="form-control form-control-lg" id="c-message" name="message" rows="4" placeholder="Mesajınızı yazın" required></textarea>
                   </div>
                   <div class="pt-sm-2 pt-1">
-                    <button class="btn btn-lg btn-primary w-sm-auto w-100" type="submit">Formu Gönder</button>
+                    <button class="btn btn-lg btn-primary w-sm-auto w-100" type="submit" name="iletial">Formu Gönder</button>
                   </div>
                 </form>
               </div>

@@ -196,7 +196,7 @@ require 'Frameworks/PHPMailer/src/SMTP.php';
 $SiteEmailHostAdresi = "webmail.tacbariyer.com";
 $SiteEmailAdresi = "gonder@tacbariyer.com";
 $SiteEmailSifresi = "GKeL^-)1Myez";
-$gonder = "info@tacbariyer.com";
+$gonder = "bilgi@tacbariyer.com";
 
 
 
@@ -229,6 +229,12 @@ $MailIcerigiHazirla = "İsim Soyisim : " . $name .
                       " <br> Adres : " . $city . " - " . $ilce ." - ".$mahalle." - ". $sokak . " - ". $no .
                       " <br> Forklift Tonajı : " . $forklift_tonaji .
                       " <br> İstenilen Metre : " . $olcum;
+}elseif($geldigiyer == "iletisim") {
+  $SiteAdi = "Tac Bariyer İletişim Formu";
+  $MailIcerigiHazirla = "İsim Soyisim : " . $name . 
+                      " <br/>Şirket : " . $company . 
+                      " <br/>Mail Adresi : " . $email . 
+                      " <br/>Mesaj : " . $message;
 }
 
   
