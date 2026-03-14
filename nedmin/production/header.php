@@ -45,6 +45,15 @@ if ($say==0) {
 
   <title>Tac Bariyer Admin Paneli</title>
 
+  <?php
+  $icon_href = (!empty($ayarcek['ayar_ikon']) && strpos($ayarcek['ayar_ikon'], 'http') === 0)
+    ? $ayarcek['ayar_ikon']
+    : '../../' . ltrim($ayarcek['ayar_ikon'] ?? '', '/');
+  ?>
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo htmlspecialchars($icon_href); ?>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo htmlspecialchars($icon_href); ?>">
+  <link rel="apple-touch-icon" href="<?php echo htmlspecialchars($icon_href); ?>">
+
   <!-- Bootstrap -->
   <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
