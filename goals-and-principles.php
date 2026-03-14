@@ -9,10 +9,10 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Müşteri İlişkileri / Re-Flexible</title>
+  <title>Müşteri İlişkileri / Tac Bariyer</title>
   <!-- SEO Meta Tags-->
-  <meta name="description" content="Re-Flexible, müşteri memnuniyetini ön planda tutarak, her adımda esnek çözümler sunar. Güvenilir ve etkili iletişimle müşteri ilişkilerini güçlendirir, beklentileri aşar.">
-  <meta name="author" content="Esnek Bariyer Sistemleri Re-flexible">
+  <meta name="description" content="Tac Bariyer, müşteri memnuniyetini ön planda tutarak, her adımda esnek çözümler sunar. Güvenilir ve etkili iletişimle müşteri ilişkilerini güçlendirir, beklentileri aşar.">
+  <meta name="author" content="Esnek Bariyer Sistemleri Tac Bariyer">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->
@@ -132,7 +132,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
     <h2 class="mb-md-4 mb-3 pb-md-2">Hedef ve İlkeler</h2>
     <div class="pb-md-2">
         <h3 class="h5">Hedeflerimiz</h3>
-        <p>Re-Flexible olarak, işletmenizin güvenliğini en üst seviyede tutmak ve sürdürülebilir çözümler sunmak, en büyük hedefimizdir. Ürettiğimiz esnek bariyerlerle, endüstriyel alanlarda hem çalışanların güvenliğini sağlamak hem de ekipman ve yapılarınızı korumak için çalışıyoruz. Amacımız, her zaman yenilikçi ve müşteri odaklı ürünler geliştirerek, sektörde öncü bir marka olmaktır.</p>
+        <p>Tac Bariyer olarak, işletmenizin güvenliğini en üst seviyede tutmak ve sürdürülebilir çözümler sunmak, en büyük hedefimizdir. Ürettiğimiz esnek bariyerlerle, endüstriyel alanlarda hem çalışanların güvenliğini sağlamak hem de ekipman ve yapılarınızı korumak için çalışıyoruz. Amacımız, her zaman yenilikçi ve müşteri odaklı ürünler geliştirerek, sektörde öncü bir marka olmaktır.</p>
 
         <ul>
             <li><strong>Güvenliği Artırmak:</strong> İş sahalarında meydana gelebilecek kazaları en aza indirgeyerek, güvenli bir çalışma ortamı sağlamak.</li>
@@ -150,7 +150,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
             <li><strong>Gelişim ve İnovasyon:</strong> Sürekli gelişimi hedefler, yeni teknolojilere ve inovatif çözümlere yatırım yaparız.</li>
         </ul>
 
-        <p>Re-Flexible olarak, bu hedefler ve ilkeler doğrultusunda ilerleyerek, endüstriyel güvenlik çözümlerinde global bir marka olma yolunda emin adımlarla ilerliyoruz. Müşterilerimizle birlikte güvenli ve sürdürülebilir bir gelecek inşa etmeye kararlıyız.</p>
+        <p>Tac Bariyer olarak, bu hedefler ve ilkeler doğrultusunda ilerleyerek, endüstriyel güvenlik çözümlerinde global bir marka olma yolunda emin adımlarla ilerliyoruz. Müşterilerimizle birlikte güvenli ve sürdürülebilir bir gelecek inşa etmeye kararlıyız.</p>
     </div>
 </div>
 

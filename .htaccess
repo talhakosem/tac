@@ -12,7 +12,7 @@ RewriteRule ^(.*)$ $1.php
 
 #404 hata sayfası yönlendirme kodu
 
-ErrorDocument 404 https://re-flexible.com/404
+ErrorDocument 404 https://tacbariyer.com/404
 
 
 RewriteRule ^category-([0-9a-zA-Z-_]+)  category.php?sef=$1 [L,QSA]

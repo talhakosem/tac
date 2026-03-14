@@ -43,7 +43,7 @@ if ($say==0) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Re-Flexible Admin Paneli</title>
+  <title>Tac Bariyer Admin Paneli</title>
 
   <!-- Bootstrap -->
   <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">

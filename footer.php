@@ -30,7 +30,7 @@
               <div class="px-2">
                 <h4 class="h5">Kurumsal</h4>
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a class="nav-link p-0 fw-normal" href="re-flexible">Neden Re-Flexible</a></li>
+                  <li class="nav-item mb-2"><a class="nav-link p-0 fw-normal" href="re-flexible">Neden Tac Bariyer</a></li>
                   <li class="nav-item mb-2"><a class="nav-link p-0 fw-normal" href="blog">Blog</a></li>
                   <li class="nav-item mb-2"><a class="nav-link p-0 fw-normal" href="goals-and-principles">Hedef ve İlkeler</a></li>
                   <li class="nav-item mb-2"><a class="nav-link p-0 fw-normal" href="customer-relations">Müşteri İlişkileri</a></li>

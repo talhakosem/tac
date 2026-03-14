@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /login/
 Allow: /
 
-Sitemap: https://re-flexible.com/sitemap.xml
+Sitemap: https://tacbariyer.com/sitemap.xml

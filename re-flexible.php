@@ -50,9 +50,9 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
         <div class="row align-items-center justify-content-center">
           <!-- Hero content-->
           <div class="col-lg-4 col-md-5 col-sm-9 order-md-1 order-2 text-md-start text-center">
-            <h1 class="mb-4">Neden Re-Flexible?</h1>
+            <h1 class="mb-4">Neden Tac Bariyer?</h1>
             <p class="mb-4 pb-3 fs-lg">
-Re-Flexible olarak sunduğumuz esnek bariyerler, darbe anında enerjiyi emerek iş güvenliğinizi artırır ve dayanıklı malzemeleri sayesinde uzun ömürlüdür. Hızlı ve kolay kurulum süreçleriyle zaman kazandırırken, maliyetlerinizi minimuma indirir. </p>
+Tac Bariyer olarak sunduğumuz esnek bariyerler, darbe anında enerjiyi emerek iş güvenliğinizi artırır ve dayanıklı malzemeleri sayesinde uzun ömürlüdür. Hızlı ve kolay kurulum süreçleriyle zaman kazandırırken, maliyetlerinizi minimuma indirir. </p>
           </div>
           <!-- Hero carousel-->
           <div class="col-lg-7 col-md-6 offset-md-1 col-12 order-md-2 order-1">
@@ -242,7 +242,7 @@ Re-Flexible olarak sunduğumuz esnek bariyerler, darbe anında enerjiyi emerek i
             <h3 class="h5 mb-2 pt-1"><a class="nav-link" href="blog-<?=seo($dondur["yazi_seourl"])?>"><?php echo $dondur['yazi_ad'] ?></a></h3>
             <p class="mb-3"><?php echo $dondur['yazi_description'] ?></p><a class="d-flex align-items-center text-decoration-none" href="blog-<?=seo($dondur["yazi_seourl"])?>"><img class="rounded-circle" src="<?php echo $ayarcek['ayar_ikon'] ?>" width="48" alt="Cody Fisher">
               <div class="ps-2">
-                <h6 class="fs-base text-nav lh-base mb-1">Re-Flexible Esnek Bariyerleri</h6>
+                <h6 class="fs-base text-nav lh-base mb-1">Tac Bariyer Esnek Bariyerleri</h6>
                 <div class="d-flex text-body fs-sm"><span class="me-2 pe-1"><i class="fi-calendar-alt opacity-70 mt-n1 me-1 align-middle"></i>
 
 

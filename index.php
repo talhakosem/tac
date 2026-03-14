@@ -39,7 +39,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
 <section class="container pt-5 my-5 pb-lg-4">
   <div class="row pt-0 pt-md-2 pt-lg-0">
     <div class="col-xl-5 col-lg-6 col-md-7 order-md-1 pe-lg-0 mb-3 text-md-start text-center">
-      <h2 class="display-4 mt-lg-5 mb-md-4 mb-3 pt-md-4 pb-lg-2">Esnek bariyer <br> Re~Flexible</h2>
+      <h2 class="display-4 mt-lg-5 mb-md-4 mb-3 pt-md-4 pb-lg-2">Esnek Bariyer</h2>
       <p class="position-relative lead me-lg-n5">Esnek bariyerlerimiz, geleneksel demir bariyerlerin aksine, sürekli onarım maliyetini ortadan kaldırır. Daha sürdürülebilir ve dayanıklı olan bu bariyerler, uzun ömürlü kullanım sağlar. 
         <strong>Esnek bariyerlerimizi keşfedin ve maliyetlerinizi düşürün!</strong>
       </p>

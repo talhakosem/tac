@@ -10,7 +10,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
     <meta charset="utf-8">
     <title>Esnek Bariyer Demo Talebi</title>
     <!-- SEO Meta Tags-->
-    <meta name="description" content="Re-Flexible Esnek bariyer sistemleri olarak ücretsiz demo hizmeti sunmaktayız. Bu sayede satın almadan önce ürünleri deneme fırsatı sunmaktayız.">
+    <meta name="description" content="Tac Bariyer Esnek bariyer sistemleri olarak ücretsiz demo hizmeti sunmaktayız. Bu sayede satın almadan önce ürünleri deneme fırsatı sunmaktayız.">
     <meta name="author" content="Esnek Bariyer Sistemleri">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

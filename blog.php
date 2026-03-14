@@ -63,7 +63,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
                 <div class="col-md-7 col-lg-8 mb-lg-0 mb-3 mb-md-0"><a class="d-block position-relative" href="blog-<?=seo($cikar["yazi_seourl"])?>"><span class="badge bg-success position-absolute top-0 end-0 m-3 fs-sm"><?php echo $cikar['kategori_id'] ?></span><img class="rounded-3" src="<?php echo $cikar['blog_resimyol'] ?>" alt="Esnek Bariyer"></a></div>
                 <div class="col-md-5 col-lg-4"><a class="fs-sm text-uppercase text-decoration-none" href="#">Esnek Bariyer</a>
                   <h2 class="h5 pt-1"><a class="nav-link" href="blog-<?=seo($cikar["yazi_seourl"])?>"><?php echo $cikar['yazi_ad'] ?></a></h2>
-                  <p class="d-md-none d-xl-block mb-4"><?php echo $cikar['yazi_description'] ?></p><a class="d-flex align-items-center text-decoration-none" href="blog-<?=seo($cikar["yazi_seourl"])?>"><img class="rounded-circle" src="<?php echo $ayarcek['ayar_ikon'] ?>" width="48" alt="Re-flexible">
+                  <p class="d-md-none d-xl-block mb-4"><?php echo $cikar['yazi_description'] ?></p><a class="d-flex align-items-center text-decoration-none" href="blog-<?=seo($cikar["yazi_seourl"])?>"><img class="rounded-circle" src="<?php echo $ayarcek['ayar_ikon'] ?>" width="48" alt="Tac Bariyer">
                     <div class="ps-2">
                       <h6 class="fs-base text-nav lh-base mb-1"><?php echo $ayarcek['ayar_title'] ?></h6>
                       <div class="d-flex text-body fs-sm"><span class="me-2 pe-1"><i class="fi-calendar-alt opacity-60 mt-n1 me-1"></i>
@@ -99,9 +99,9 @@ echo $tarih;
 
           <article class="col pb-2 pb-md-1"><a class="d-block position-relative mb-3" href="blog-<?=seo($dondur["yazi_seourl"])?>"><span class="badge bg-info position-absolute top-0 end-0 m-3 fs-sm"><?php echo $dondur["kategori_id"] ?></span><img class="d-block rounded-3" src="<?php echo $dondur['blog_resimyol'] ?>" alt="<?php echo $dondur['yazi_ad'] ?>"></a><a class="fs-sm text-uppercase text-decoration-none" href="blog-<?=seo($dondur["yazi_seourl"])?>">Esnek Bariyer</a>
             <h3 class="h5 mb-2 pt-1"><a class="nav-link" href="blog-<?=seo($dondur["yazi_seourl"])?>"><?php echo $dondur['yazi_ad'] ?></a></h3>
-            <p class="mb-3"><?php echo $dondur['yazi_description'] ?></p><a class="d-flex align-items-center text-decoration-none" href="blog-<?=seo($dondur["yazi_seourl"])?>"><img class="rounded-circle" src="<?php echo $ayarcek['ayar_ikon'] ?>" width="48" alt="ESNEK BARİYER - RE-FLEXIBLE">
+            <p class="mb-3"><?php echo $dondur['yazi_description'] ?></p><a class="d-flex align-items-center text-decoration-none" href="blog-<?=seo($dondur["yazi_seourl"])?>"><img class="rounded-circle" src="<?php echo $ayarcek['ayar_ikon'] ?>" width="48" alt="Tac Bariyer">
               <div class="ps-2">
-                <h6 class="fs-base text-nav lh-base mb-1">Re-Flexible Esnek Bariyerleri</h6>
+                <h6 class="fs-base text-nav lh-base mb-1">Tac Bariyer Esnek Bariyerleri</h6>
                 <div class="d-flex text-body fs-sm"><span class="me-2 pe-1"><i class="fi-calendar-alt opacity-70 mt-n1 me-1 align-middle"></i>
 
                   <?php

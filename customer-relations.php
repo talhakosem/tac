@@ -9,10 +9,10 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Müşteri İlişkileri / Re-Flexible</title>
+  <title>Müşteri İlişkileri / Tac Bariyer</title>
   <!-- SEO Meta Tags-->
-  <meta name="description" content="Re-Flexible, müşteri memnuniyetini ön planda tutarak, her adımda esnek çözümler sunar. Güvenilir ve etkili iletişimle müşteri ilişkilerini güçlendirir, beklentileri aşar.">
-  <meta name="author" content="Esnek Bariyer Sistemleri Re-flexible">
+  <meta name="description" content="Tac Bariyer, müşteri memnuniyetini ön planda tutarak, her adımda esnek çözümler sunar. Güvenilir ve etkili iletişimle müşteri ilişkilerini güçlendirir, beklentileri aşar.">
+  <meta name="author" content="Esnek Bariyer Sistemleri Tac Bariyer">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->
@@ -130,11 +130,11 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
        <div class="col-lg-12">
 
     <div class="pb-md-2">
-        <p>Re-Flexible olarak, müşteri memnuniyetini ve güvenliğini en ön planda tutuyoruz. Ürettiğimiz esnek bariyerlerle, sadece güvenlik sağlamakla kalmıyor, aynı zamanda uzun ömürlü ve tekrar kullanılabilir çözümler sunuyoruz. Müşterilerimizle kurduğumuz ilişkilerde, karşılıklı güven ve şeffaf iletişime büyük önem veriyoruz.</p>
+        <p>Tac Bariyer olarak, müşteri memnuniyetini ve güvenliğini en ön planda tutuyoruz. Ürettiğimiz esnek bariyerlerle, sadece güvenlik sağlamakla kalmıyor, aynı zamanda uzun ömürlü ve tekrar kullanılabilir çözümler sunuyoruz. Müşterilerimizle kurduğumuz ilişkilerde, karşılıklı güven ve şeffaf iletişime büyük önem veriyoruz.</p>
 
         <p>Her bir müşterimizin ihtiyaçlarını dikkatle dinliyor ve onlara en uygun çözümleri sunmak için esnek yaklaşımlar geliştiriyoruz. Ürünlerimiz hakkında sorularınızı yanıtlamak, önerilerinizi dinlemek ve her adımda size destek olmak için buradayız. İşbirliğimiz süresince, kaliteli hizmet anlayışımızla yanınızda olmaktan gurur duyuyoruz.</p>
 
-        <p>Müşteri ilişkilerimizde, hızlı geri dönüşler ve proaktif çözümler sunarak, memnuniyetinizi en üst düzeyde tutmayı amaçlıyoruz. Re-Flexible, yalnızca ürün satışı yapan bir firma değil; aynı zamanda iş ortaklarının başarısını ve güvenliğini önceliklendiren bir iş ortağıdır.</p>
+        <p>Müşteri ilişkilerimizde, hızlı geri dönüşler ve proaktif çözümler sunarak, memnuniyetinizi en üst düzeyde tutmayı amaçlıyoruz. Tac Bariyer, yalnızca ürün satışı yapan bir firma değil; aynı zamanda iş ortaklarının başarısını ve güvenliğini önceliklendiren bir iş ortağıdır.</p>
 
         <p>Siz de bizimle çalışarak, esnek bariyer çözümlerimizden en yüksek verimi alabilir ve iş güvenliğinizi bir üst seviyeye taşıyabilirsiniz. Sizinle uzun vadeli ve sağlıklı bir iş ilişkisi kurmayı dört gözle bekliyoruz.</p>
     </div>

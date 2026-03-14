@@ -19,7 +19,7 @@ $kategori_id=$kategoricek['kategori_id'];
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><?php echo $kategoricek['kategori_ad'] ?> - Re-Flexible</title>
+    <title><?php echo $kategoricek['kategori_ad'] ?> - Tac Bariyer</title>
     <meta name="title" content="<?php echo $kategoricek['kategori_ad'] ?>" />
     <meta name="description" content="<?php echo $kategoricek['kategori_desc']; ?>" />
     <meta name="author" content="<?php echo $ayarcek['ayar_author']; ?>" />

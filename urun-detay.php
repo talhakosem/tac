@@ -188,7 +188,7 @@ $fotos = $urunfotosor->fetchAll(PDO::FETCH_ASSOC);
                   <textarea class="form-control mb-3" rows="3" placeholder="Mesajınız" style="resize: none;" name="message"></textarea>
                   <div class="form-check mb-4">
                     <input class="form-check-input" id="form-submit" type="checkbox" checked name="tanitim_istegi">
-                    <label class="form-check-label fs-sm" for="form-submit">Re-Flexible'dan haberleri ve tanıtımları e-postama gönderin.</label>
+                    <label class="form-check-label fs-sm" for="form-submit">Tac Bariyer'dan haberleri ve tanıtımları e-postama gönderin.</label>
                   </div>
                   <button class="btn btn-lg btn-primary d-block w-100" type="submit" name="iletial">Talep Gönder</button>
                       <input type="hidden" name="link" value="<?php echo $_SERVER['REQUEST_URI']; ?>">

@@ -17,32 +17,32 @@ xmlns:example="http://www.example.com/schemas/example_schema">
 
 
     <url>
-        <loc>https://re-flexible.com/</loc>
+        <loc>https://tacbariyer.com/</loc>
         <lastmod><?php echo date("Y-m-d"); ?></lastmod>
     </url>
 
     <url>
-        <loc>https://re-flexible.com/re-flexible</loc>
+        <loc>https://tacbariyer.com/re-flexible</loc>
         <lastmod><?php echo date("Y-m-d"); ?></lastmod>
     </url>
 
     <url>
-        <loc>https://re-flexible.com/contact</loc>
+        <loc>https://tacbariyer.com/contact</loc>
         <lastmod><?php echo date("Y-m-d"); ?></lastmod>
     </url>
 
     <url>
-        <loc>https://re-flexible.com/blog</loc>
+        <loc>https://tacbariyer.com/blog</loc>
         <lastmod><?php echo date("Y-m-d"); ?></lastmod>
     </url>
 
     <url>
-        <loc>https://re-flexible.com/goals-and-principles</loc>
+        <loc>https://tacbariyer.com/goals-and-principles</loc>
         <lastmod><?php echo date("Y-m-d"); ?></lastmod>
     </url>
 
     <url>
-        <loc>https://re-flexible.com/customer-relations</loc>
+        <loc>https://tacbariyer.com/customer-relations</loc>
         <lastmod><?php echo date("Y-m-d"); ?></lastmod>
     </url>
 
@@ -52,7 +52,7 @@ xmlns:example="http://www.example.com/schemas/example_schema">
 
     while($bariyercek = $bariyersor->fetch(PDO::FETCH_ASSOC)) { ?>
         <url>
-            <loc>https://re-flexible.com/bariyer-<?php echo $bariyercek['urun_seourl']."-".$bariyercek['urun_id']; ?></loc>
+            <loc>https://tacbariyer.com/bariyer-<?php echo $bariyercek['urun_seourl']."-".$bariyercek['urun_id']; ?></loc>
             <lastmod><?php echo date("Y-m-d"); ?></lastmod>
         </url>
     <?php } ?>
@@ -63,7 +63,7 @@ xmlns:example="http://www.example.com/schemas/example_schema">
 
     while($kategoricek = $kategorisor->fetch(PDO::FETCH_ASSOC)) { ?>
         <url>
-            <loc>https://re-flexible.com/category-<?php echo $kategoricek['kategori_seourl']; ?></loc>
+            <loc>https://tacbariyer.com/category-<?php echo $kategoricek['kategori_seourl']; ?></loc>
             <lastmod><?php echo date("Y-m-d"); ?></lastmod>
         </url>
     <?php } ?>
@@ -74,7 +74,7 @@ xmlns:example="http://www.example.com/schemas/example_schema">
 
     while($yazicek = $yazisor->fetch(PDO::FETCH_ASSOC)) { ?>
         <url>
-            <loc>https://re-flexible.com/blog-<?php echo $yazicek['yazi_seourl']; ?></loc>
+            <loc>https://tacbariyer.com/blog-<?php echo $yazicek['yazi_seourl']; ?></loc>
             <lastmod><?php echo date("Y-m-d"); ?></lastmod>
         </url>
     <?php } ?>

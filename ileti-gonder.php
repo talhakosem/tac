@@ -193,10 +193,10 @@ require 'Frameworks/PHPMailer/src/PHPMailer.php';
 require 'Frameworks/PHPMailer/src/SMTP.php';
 
 
-$SiteEmailHostAdresi = "webmail.re-flexible.com";
-$SiteEmailAdresi = "gonder@re-flexible.com";
+$SiteEmailHostAdresi = "webmail.tacbariyer.com";
+$SiteEmailAdresi = "gonder@tacbariyer.com";
 $SiteEmailSifresi = "GKeL^-)1Myez";
-$gonder = "info@re-flexible.com";
+$gonder = "info@tacbariyer.com";
 
 
 
@@ -204,14 +204,14 @@ $gonder = "info@re-flexible.com";
 
 if ($geldigiyer =="kesif") {
 
-$SiteAdi = "Re-Flexible Keşif Talebi";
+$SiteAdi = "Tac Bariyer Keşif Talebi";
 $MailIcerigiHazirla = "İsim Soyisim : " . $name . 
                       " <br/>Mail Adresi : " . $email . 
                       " <br/>Telefon Numarası : " . $phone . 
                       " <br/>Şirketi : " . $company . 
                       " <br> Şirket Adresi: " . $co_location;
 }elseif($geldigiyer == "talep") {
-  $SiteAdi = "Re-Flexible Görüşme Talebi";
+  $SiteAdi = "Tac Bariyer Görüşme Talebi";
   $MailIcerigiHazirla = "İsim Soyisim : " . $name . 
                       " <br/>Mail Adresi : " . $email . 
                       " <br/>Telefon Numarası : " . $phone . 
@@ -219,7 +219,7 @@ $MailIcerigiHazirla = "İsim Soyisim : " . $name .
                       " <br> Mesaj : " . $message;
 
 }elseif($geldigiyer == "demo") {
-  $SiteAdi = "Re-Flexible Demo Talebi";
+  $SiteAdi = "Tac Bariyer Demo Talebi";
   $MailIcerigiHazirla = "İsim Soyisim : " . $name . 
                       " <br/>Mail Adresi : " . $email . 
                       " <br/>Telefon Numarası : " . $phone . 

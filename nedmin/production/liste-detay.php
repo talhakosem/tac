@@ -32,7 +32,7 @@ $olcum = $kategoricek['olcum'];
 // Mail içeriği hazırlama
 if ($geldigiyer == "kesif") {
 
-  $SiteAdi = "Re-Flexible Keşif Talebi";
+  $SiteAdi = "Tac Bariyer Keşif Talebi";
   $MailIcerigiHazirla = "İsim Soyisim : " . $name . 
                         " <br/>Mail Adresi : " . $email . 
                         " <br/>Telefon Numarası : " . $phone . 
@@ -41,7 +41,7 @@ if ($geldigiyer == "kesif") {
 
 } elseif($geldigiyer == "talep") {
 
-  $SiteAdi = "Re-Flexible Görüşme Talebi";
+  $SiteAdi = "Tac Bariyer Görüşme Talebi";
   $MailIcerigiHazirla = "İsim Soyisim : " . $name . 
                         " <br/>Mail Adresi : " . $email . 
                         " <br/>Telefon Numarası : " . $phone . 
@@ -50,7 +50,7 @@ if ($geldigiyer == "kesif") {
 
 } elseif($geldigiyer == "demo") {
 
-  $SiteAdi = "Re-Flexible Demo Talebi";
+  $SiteAdi = "Tac Bariyer Demo Talebi";
   $MailIcerigiHazirla = "İsim Soyisim : " . $name . 
                         " <br/>Mail Adresi : " . $email . 
                         " <br/>Telefon Numarası : " . $phone . 
@@ -62,7 +62,7 @@ if ($geldigiyer == "kesif") {
                         " <br> İstenilen Metre : " . $olcum;
 
 } else {
-  $SiteAdi = "Re-Flexible Talebi";
+  $SiteAdi = "Tac Bariyer Talebi";
   $MailIcerigiHazirla = "Bu talep türü bilinmiyor.";
 }
 

@@ -98,7 +98,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC); ?>
           <div class="col-md-4"><a class="icon-box card card-hover h-100" href="#">
               <div class="card-body">
                 <div class="icon-box-media text-primary rounded-circle shadow-sm mb-3"><i class="fi-linkedin"></i></div><span class="d-block mb-1 text-body">Takip </span>
-                <h3 class="h4 icon-box-title mb-0 opacity-90">@re-flexible</h3>
+                <h3 class="h4 icon-box-title mb-0 opacity-90">@tacbariyer</h3>
               </div></a></div>
         </div>
       </section>

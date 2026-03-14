@@ -17,7 +17,7 @@
               <button class="btn-close position-absolute top-0 end-0 mt-3 me-3" type="button" data-bs-dismiss="modal"></button>
               <div class="row mx-0 align-items-center">
                 <div class="col-md-6 border-end-md p-4 p-sm-5">
-                  <h2 class="h3 mb-4 mb-sm-5">Re-Flexible<br>Esnek Bariyer Sürdürülebilir Çözüm</h2>
+                  <h2 class="h3 mb-4 mb-sm-5">Tac Bariyer<br>Esnek Bariyer Sürdürülebilir Çözüm</h2>
                   <ul class="list-unstyled mb-4 mb-sm-5">
                     <li class="d-flex mb-2"><i class="fi-check-circle text-primary mt-1 me-2"></i><span>Daha az bariyer maliyeti</span></li>
                     <li class="d-flex mb-2"><i class="fi-check-circle text-primary mt-1 me-2"></i><span>Daha az forklift hasar maliyeti</span></li>
@@ -62,7 +62,7 @@
 
                     <div class="form-check mb-4">
                       <input class="form-check-input" type="checkbox" id="gizlilik" required>
-                      <label class="form-check-label" for="gizlilik">Re-Flexible <a href='#'>Gizlilik Politikasını</a> onaylıyorum.</label>
+                      <label class="form-check-label" for="gizlilik">Tac Bariyer <a href='#'>Gizlilik Politikasını</a> onaylıyorum.</label>
                       <hr style="border: 0; height: 1px; background-color: #666276; margin: 20px 20px;">
 
                       <input class="form-check-input" type="checkbox" id="agree-to-terms" name="tanitim_istegi">
@@ -80,7 +80,7 @@
       <!-- Navbar-->
       <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-scroll-header>
         <div class="container"><a class="navbar-brand me-3 me-xl-4" href="/">
-          <img class="d-block" src="<?php echo $ayarcek['ayar_logo'] ?>" width="150" alt="Re-Flexible Esnek Bariyer Logo"></a>
+          <img class="d-block" src="<?php echo $ayarcek['ayar_logo'] ?>" width="150" alt="Tac Bariyer Esnek Bariyer Logo"></a>
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="btn btn-primary btn-sm ms-2 order-lg-3" href="#kesif-talebi" data-bs-toggle="modal"><i class="fi-plus me-2"></i>Keşif Talebi</span></a>
           <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
             <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem;">
@@ -99,7 +99,7 @@
                   <?php } ?>
                 </ul>
               </li>
-              <li class="nav-item "><a class="nav-link " href="re-flexible">Neden Re-Flexible</a></li>
+              <li class="nav-item "><a class="nav-link " href="re-flexible">Neden Tac Bariyer</a></li>
 
        
 

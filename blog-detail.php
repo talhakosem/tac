@@ -106,7 +106,7 @@ $yazicek=$yazisor->fetch(PDO::FETCH_ASSOC);
             <!-- Author-->
             <div class="mb-4 pb-md-3"><a class="d-flex align-items-center text-body text-decoration-none" href="#"><img class="rounded-circle" src="<?php echo $ayarcek['ayar_ikon'] ?>" width="80" alt="Kristin Watson">
                 <div class="ps-3">
-                  <h2 class="h6 mb-1">Re-Flexible</h2><span class="fs-sm">Esnek Bariyer Geliştiricisi</span>
+                  <h2 class="h6 mb-1">Tac Bariyer</h2><span class="fs-sm">Esnek Bariyer Geliştiricisi</span>
                 </div></a></div>
             <!-- Post content-->
             <p><?php echo $yazicek['yazi_detay'] ?></p>
